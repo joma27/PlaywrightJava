@@ -16,6 +16,5 @@ public class LoginTest extends BaseTest{
 		page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Password")).click();
 		page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Password")).fill("admin123");
 		page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Login")).click();
-//		assertThat(page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Dashboard"))).isVisible();
 	}
 }
